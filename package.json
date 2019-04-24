@@ -1,0 +1,44 @@
+{
+  "name": "milagro-feed",
+  "version": "1.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MilagroApp/milagro-feed.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MilagroApp/milagro-feed/issues"
+  },
+  "homepage": "https://github.com/MilagroApp/milagro-feed#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "consign": "^0.1.6",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "express-fileupload": "^1.0.0",
+    "google-auth-library": "^2.0.1",
+    "googleapis": "^34.0.0",
+    "jsonwebtoken": "^8.3.0",
+    "mysql": "^2.16.0",
+    "readline": "^1.3.0",
+    "request": "^2.88.0",
+    "simple-git": "^1.106.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.15.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "nodemon": "^1.18.5"
+  }
+}
